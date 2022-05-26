@@ -138,6 +138,99 @@ p {
 
 }
 
+/* About*/
+.main-about {
+    background-color: var(--second-color);
+    padding: 30px 0;
+}
+
+.main-about h2 {
+    padding-bottom: 30px;
+    color: var(--primary-color);
+    font-size: 42px;
+}
+
+.container-about {
+    display: flex;
+}
+
+.about-img img {
+    height: 350px;
+    padding: 40px 80px 0 0px;
+
+}
+.main-about hr {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.about-text h4 {
+    font-size: 1.80rem;
+    color: var(--primary-color);
+}
+
+.about-text .about-download {
+    background-color: var(--color-orange);
+    border: none;
+    height: 40px;
+    width: 170px;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: .2s;
+
+}
+.about-text .about-download:hover {
+    background-color: #2aa486;
+    border: none;
+    height: 40px;
+    width: 170px;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: .2s;
+    cursor: pointer;
+    
+}
+
+/*skills*/
+
+.skills {
+    padding: 40px 0;
+}
+.skills h2 {
+    padding-bottom: 50px;
+    color: var(--primary-color);
+    font-size: 40px;
+}
+
+.skills-filas {
+    display: flex;
+    padding-bottom: 50px;
+    margin-top: 40px;
+}
+.skills-left,
+.skills-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.left-img,
+.right-img {
+    width: 50%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.skills-left .left-img i,
+.skills-right .right-img i {
+    font-size: 70px;
+    
+}
+
+
+
+
 /* footer */
 
 .main-footer {
