@@ -115,11 +115,10 @@ form .form-control {
 
 
 .navbar {
-    overflow: auto;
+    overflow: hidden;
     padding-top: 10px;
     padding-bottom: 10px;
     height: 10vh;
-   
 }
 
 .navbar .logo {
