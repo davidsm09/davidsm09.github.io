@@ -109,45 +109,73 @@ form .form-control {
     border-radius: 3px;
 }
 
+.active {
+    margin: 0px 20px;
+    padding: 10px 13px;
+    cursor: pointer;
+    background-color: var(--color-orange);
+    transition: ease-in .2s;
+}
 
 
 /* Nav bar */
 
+.header{
+    width:100%;
+    background-color: #ffffff;
+    padding: 1em;
+  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
 
-.navbar {
-    overflow: hidden;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 10vh;
-}
+  .header img{
+    width: 60px;
+  }
 
-.navbar .logo {
-    float: left;
-    padding-top: 5px;
-}
-.navbar .logo img {
-    height: 40px;
-    margin-top: -3px;
-}
+  .a {
+    font-size: 18px;
+  }
 
-.navbar ul {
-    float: right;
-}
-.navbar ul li {
-    float: left;
-}
-.navbar ul li a {
-    display: block;
-    padding: 13px 20px;
-    text-align: center;
+  .header .button{
+    display: none;
+    background-color: #ffffff;
+    border: none;
+  }
+  .header .svg{
+    width:3em;
+    height:3em;
+    fill: var(--primary-color);
+  }
+
+  .header .ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    
+  }
+  .header .li{
+    margin: 0px 20px;
+    padding: 10px 13px;
+    cursor: pointer;
     transition: ease-in .2s;
-    margin:0 3px ;
-}
-.navbar ul li a:hover,
-.navbar ul li .current {
+  }
+
+  .header .li:hover{
+    margin: 0px 20px;
+    padding: 10px 13px;
+    cursor: pointer;
     background-color: var(--color-orange);
-    transition: ease-in .3s;
-}
+    transition: ease-in .2s;
+  }
+
+
+  
+
 
 /* portada contenido */
 .header-portada {
@@ -336,7 +364,7 @@ background-color: #2aa486;
 /* Contacto */
 
 .contact {
-    padding: 90px 0;
+    padding: 70px 0;
     background-color: var(--second-color);
 }
 .contact h2 {
@@ -347,7 +375,7 @@ background-color: #2aa486;
 .contact-form {
     background-color: #ffffff;
     width: 50%;
-    margin: 30px auto 40px auto;
+    margin: 30px auto 20px auto;
     padding: 50px 50px;
     border-radius: 8px;
     box-shadow: -1px 10px 22px 5px rgba(0,0,0,0.75);
@@ -389,7 +417,7 @@ background-color: #2aa486;
 .main-footer {
     text-align: center;
     padding: 13px;
-    height: 10vh;
+    height: 12vh;
     background-color: var(--second-color);
 }
 .main-footer p {
